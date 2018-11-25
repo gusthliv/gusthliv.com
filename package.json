@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gusthliv/fcc.git"
+    "url": "git+https://github.com/gusthliv/gusthliv.com.git"
   },
   "keywords": [],
-  "author": "Gustavo Andrade <gusthliv@gmail.com>",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gusthliv/fcc/issues"
+    "url": "https://github.com/gusthliv/gusthliv.com/issues"
   },
-  "homepage": "https://github.com/gusthliv/fcc#readme",
+  "homepage": "https://github.com/gusthliv/gusthliv.com#readme",
   "devDependencies": {
     "browser-sync": "^2.26.3"
   }
