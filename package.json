@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Free Code Camp Projects",
   "scripts": {
-    "start": "browser-sync start --server --no-notify --no-open --serveStatic public --files public",
+    "start": "browser-sync start --server --no-notify --no-open --serveStatic build --files build",
     "build": ":"
   },
   "repository": {
