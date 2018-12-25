@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "Unity Projects",
   "scripts": {
-    "start": "browser-sync start --server --no-notify --no-open --serveStatic public --files public"
+    "start": "browser-sync start --server --no-notify --no-open --serveStatic build --files build",
+    "build": ":"
   },
   "repository": {
     "type": "git",
