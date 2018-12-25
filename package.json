@@ -1,23 +1,35 @@
 {
-  "name": "fcc",
-  "version": "0.0.1",
-  "description": "Free Code Camp Projects",
+  "name": "counters",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^3.7.1",
+    "@material-ui/icons": "^3.0.1",
+    "firebase": "^5.7.1",
+    "react": "16.7.0-alpha.2",
+    "react-dom": "16.7.0-alpha.2",
+    "react-redux": "^6.0.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1",
+    "react-transition-group": "^2.5.2",
+    "recompose": "^0.30.0",
+    "redux-logger": "^3.0.6",
+    "redux-observable": "^1.0.0",
+    "redux-starter-kit": "^0.2.0"
+  },
   "scripts": {
-    "start": "browser-sync start --server --no-notify --no-open --serveStatic build --files build",
-    "build": ":"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gusthliv/gusthliv.com.git"
+  "eslintConfig": {
+    "extends": "react-app"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/gusthliv/gusthliv.com/issues"
-  },
-  "homepage": "https://github.com/gusthliv/gusthliv.com#readme",
-  "devDependencies": {
-    "browser-sync": "^2.26.3"
-  }
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
